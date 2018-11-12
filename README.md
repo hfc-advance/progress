@@ -44,11 +44,11 @@ function update () {
 }
 ```
 
-The `:value`, `:total`, `:percent` and `:time` above are [tokens](#tokens), they will be replaced with runtime values.
+The `:value`, `:total`, `:percent` and `:time` above are placeholder [tokens](#tokens), they will be replaced with runtime values.
 
 ## Options
 
-- `stream`: Writable stream, defualt is `process.stderr`. It muse be a TTY.
+- `stream`: Writable stream, defualt is `process.stderr`. It muse be a [TTY]().
 - `width`: The width of progress bar, default is `25`.
 - `total`: Total value, default is `1`.
 - `value`: Value, default is `0`.
@@ -60,7 +60,7 @@ The `:value`, `:total`, `:percent` and `:time` above are [tokens](#tokens), they
 
 ## Tokens
 
-You can use tokens in `head`, `title`, `subtitle` and `description`. The tokenswill be replaced with their runtime value.
+You can use tokens in `head`, `title`, `subtitle` and `description`. The tokens will be replaced with their runtime values.
 
 These are tokens you can use:
 
@@ -69,7 +69,7 @@ These are tokens you can use:
 - `:percent`: Percentage of `value / total`.
 - `:time`: Spent time in processing.
 
-## Methods
+## Methods
 
 - `.start()`: Start progress.
 - `.update(value | options)`: Update the progress bar.
