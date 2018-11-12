@@ -1,0 +1,43 @@
+{
+  "name": "@fedlinker/progress",
+  "version": "0.1.0",
+  "description": "Progress bar for Node.js with nuxt/webpackbar style",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedlinker/progress.git"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "cli",
+    "webpack",
+    "webpackbar"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "李蔚生 <971353677@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedlinker/progress/issues"
+  },
+  "homepage": "https://github.com/fedlinker/progress#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "ansi-escapes": "^3.1.0",
+    "chalk": "^2.4.1",
+    "figures": "^2.0.0",
+    "wrap-ansi": "^4.0.0"
+  }
+}
