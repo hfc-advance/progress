@@ -48,7 +48,7 @@ The `:value`, `:total`, `:percent` and `:time` above are placeholder [tokens](#t
 
 ## Options
 
-- `stream`: Writable stream, defualt is `process.stderr`. It muse be a [TTY]().
+- `stream`: Writable stream, defualt is `process.stderr`. It must be a [TTY]().
 - `width`: The width of progress bar, default is `25`.
 - `total`: Total value, default is `1`.
 - `value`: Value, default is `0`.
